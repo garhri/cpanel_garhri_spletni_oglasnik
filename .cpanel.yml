@@ -1,4 +1,4 @@
 deployment:
 tasks:
-- export DEPLOYPATH=/home/VASE_CPANEL_UPORABNISKO_IME/public_html/solski_oglasnik
+- export DEPLOYPATH=/home/garhri/public_html/solski_oglasnik
 - /bin/cp -R * $DEPLOYPATH
