@@ -1,4 +1,5 @@
-deployment:
-tasks:
-- export DEPLOYPATH=/home/garhri/public_html/solski_oglasnik
-- /bin/cp -R * $DEPLOYPATH
+---
+    deployment:
+    tasks:
+     - export DEPLOYPATH=/home/garhri/public_html/cpanel_garhri_spletni_oglasnik
+     - /bin/cp -R * $DEPLOYPATH
